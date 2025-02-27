@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf8f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(fondo.2.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: #cdf5fc;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cabezera {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.cabezera img {
+    background-color: rgb(110, 248, 191);
+    height: 80px;
+    width: 120px;
+    margin-left: 120px;
+    background-image: url(fondo.2.jpg);
+    background-size: cover;
+}
+
+.formulario_login {
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ [type="submit"] {
+    background-color: #27863c;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+}
+
+ [type="submit"]:hover {
+      background-color: #43b35c;
+}
+
+a {
+      display: block;
+      color: rgb(93, 95, 93);
+      text-decoration: none;   
+}
+
+a:hover {
+      text-decoration: underline; 
+}
+
+
+button [type="submit"]:hover {
+background: linear-gradient( to right, #ff105f, #ffad06);
+ border: 30;
+
+}

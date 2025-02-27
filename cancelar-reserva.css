@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* fuente utilizada para el texto */
+    margin: 0; /* elimina el margen por defecto del navegador */
+    padding: 0; /* elimina el padding por defecto del navegador */
+    background-color: #ecf8f4; /* color de fondo blanco claro */
+    display: flex; /* utiliza flexbox para alinear los elementos en el centro del contenedor */
+    justify-content: center; /* centra horizontalmente el contenido del contenedor */
+    align-items: center; /* centra verticalmente el contenido del contenedor */
+    height: 100vh; /* establece la altura al 100% de la ventana del navegador */
+    text-align: center;
+    background-image: url(fondo.2.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: #cdf5fc; /* color de fondo azul para el contenedor */
+    width: 350px; /* ancho del contenedor reducido para una maqueta más pequeña */
+    border-radius: 10px; /* borde redondeado para un efecto suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra para darle profundidad */
+    overflow: hidden; /* oculta cualquier contenido que exceda los bordes del contenedor */
+    height: 400px; /* altura automática para ajustarse al contenido */
+  }
+  
+  /* Cabecera */
+  .cabezera {
+    display: flex;
+    height: 100px;
+    align-items: center;
+  }
+  
+  .cabezera img {
+    background-color: rgb(110, 248, 191); /* color de fondo verde claro para la cabecera */
+    height: 80px;
+    width: 120px; /* ancho para la cabecera 40% */
+    margin-left: 120px; /* centra de izquierda a derecha */
+  }
+  
+  /* Estilo del formulario */
+  .consultar_fecha {
+    padding: 20px; /* Agregar un poco de espacio alrededor del formulario */
+  }
+  
+  /* Estilo de los labels */
+  label {
+    display: block; /* Hace que los labels sean elementos de bloque */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 10px 0 5px; /* Margen superior e inferior para el label */
+  }
+  
+  /* Estilo de los inputs */
+  input[type="date"] {
+    display: block; /* Hace que los inputs sean elementos de bloque */
+    width: 95%; /* Toma el 100% del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px 0 10px; /* Margen superior e inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  /* Estilo del botón */
+  [type="submit"] {
+    background-color: #41774d; /* Color verde */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    width: 100%; /* Toma el 100% del contenedor */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    margin-top: 10px; /* Margen superior para separar del último input */
+  }
+  
+  [type="submit"]:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el ratón */
+
+    
+  
+  }
